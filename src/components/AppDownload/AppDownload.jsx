@@ -1,14 +1,15 @@
 import React from 'react';
-import playStore from '../../assets/play_Store.png';
-import appStore from '../../assets/app_Store.png';
+import {assets} from "../../assets/assets";
+import "AppDownload.css"
+
 const AppDownload = () => {
     return (
         <>
         <div className='app-download' id='app-download'>
            <p>For Better Experience  Download <br /> Tomato App</p>
            <div className="app-download-platforms">
-            <img src={playStore} alt="PlayStore" />
-            <img src={appStore} alt="AppStore" />
+            <img src={assets.play_store} alt="PlayStore" />
+            <img src={assets.app_store} alt="AppStore" />
 
            </div>   
          </div>  
